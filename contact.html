@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Ritvik Katakam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Contents</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main contact-main">
+      <form id="contactForm" action="https://formsubmit.co/ajax/katakamritvik1@gmail.com" method="POST">
+        <h2>Contact me for work/general Enquiries</h2>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <small>We'll never share your email & phone with anyone else.</small>
+        <input type="text" name="phone" placeholder="Phone">
+        <input type="text" name="enquiry" placeholder="Enquiry" required>
+        <label>
+          <input type="checkbox" name="project"> I want you to work on a project with me
+        </label>
+        <button class="submit-btn" type="submit">Submit</button>
+      </form>
+
+      <div id="successMsg">
+        <div class="tick-box"><div class="tick"></div></div>
+        <h3>Message Sent Successfully!</h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
