@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 3D Portfolio
 
 A modern, interactive 3D portfolio website built with React, Three JS. Showcases projects, skills, and contact information with a visually engaging theme.
@@ -86,3 +87,6 @@ This project is licensed under the MIT License.
 ---
 
 **Made with ❤️ by Sai Manideep
+=======
+# newportfolio
+>>>>>>> 997e846e731c2e93b0c4c0ccdae7a5d9296e8112
