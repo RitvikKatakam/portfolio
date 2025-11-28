@@ -27,11 +27,7 @@ const socialImgs = [
     imgPath: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/ritvik-katakam-894221381/",
   },
-  {
-    name: "email",
-    imgPath: "/images/email.png",
-    link: "mailto:katakamritvik047@gmail.com",
-  }
+
 ];
 
 const skills = [
